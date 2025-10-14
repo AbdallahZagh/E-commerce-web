@@ -50,6 +50,7 @@ const Login = () => {
 
   async function Login() {
     if (!validateForm()) {
+      navigate('/');
       return;
     }
 
